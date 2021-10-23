@@ -1,0 +1,251 @@
+body
+{
+    font-family: 'Merriweather, serif';
+
+    margin: 0;
+
+    text-align: center;
+
+    color: #40514e;
+}
+h1
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+
+    margin: 30px auto 0 auto;
+    padding-top: 23px;
+
+    color: #66bfbf;
+}
+h2
+{
+    font-family: 'Montserrat, sans-serif';
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    margin: 23px auto;
+
+    color: #66bfbf;
+}
+h3
+{
+    font-family: 'Merriweather, serif';
+
+    color: #11999e;
+}
+
+
+hr
+{
+    width: 4%;
+    margin: 40px auto;
+
+    border: dotted  #eaf6f6  6px;  border-bottom: none;
+}
+a
+{
+    font-family: 'Merriweather, serif';
+    font-weight: bolder;
+
+    margin: 10px 20px;
+
+    text-decoration: none;
+
+    color: #006a71;
+}
+a:hover
+{
+    color: #eaf6f6;
+}
+
+.top-container
+{
+    position: relative;
+
+    padding-top: 5px;
+
+    background-color: #eaf6f6;
+}
+.middle-container
+{
+    margin: 30px auto;
+}
+.bottom-container
+{
+    padding: 50px 0 20px;  background-color: #66bfbf;
+}
+p
+{
+    line-height: 1.6;
+}
+#idPushUp
+{
+    width: 70%;
+}
+
+.skill-row
+{
+    position: relative;
+
+    width: 53%;
+    margin: 60px auto 60px auto;
+    padding: 5px;
+
+    text-align: left;
+}
+.pro
+{
+    text-decoration: underline;
+}
+.bottom-cloud
+{
+    position: absolute;
+    bottom: 320px;
+    left: 220px;
+    width: 15%;
+    max-width: 15%;
+    height: auto;
+}
+
+.top-cloud
+{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    width: 15%;
+}
+.mountain
+{
+    max-width: 55%;
+    height: auto;
+}
+.sonne
+{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    max-width: 12%;
+    height: auto;
+}
+.adler
+{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    width: 7%;
+}
+.intro
+{
+    width: 400px;
+    margin: auto;
+}
+.contact-message
+{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.Programmer-img
+{
+    float: left;
+    width: 28%;
+    margin-right: 35px;
+}
+.chili-img
+{
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+.push-up-img
+{
+  float: right;
+    position: inherit;
+    top: -10px;
+    bottom: -10px;
+    width: 30%;
+
+}
+
+.BUTTON_YAR
+{
+    font-family: 'Merriweather, serif';
+    font-size: 19px;
+    font-weight: 100;
+
+    display: inline-block;
+
+    padding: 16px;
+
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border: solid #337fed 0;
+    -webkit-border-radius: 80px;
+       -moz-border-radius: 80px;
+            border-radius: 80px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image:    -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image:     -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image:      -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-box-shadow: 1px 1px 20px 0 #000;
+       -moz-box-shadow: 1px 1px 20px 0 #000;
+            box-shadow: 1px 1px 20px 0 #000;
+}
+
+.BUTTON_YAR:hover
+{
+    text-decoration: none;
+
+    border: solid #99c624 1px;
+    -webkit-border-radius: 19px;
+       -moz-border-radius: 19px;
+            border-radius: 19px;
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image:    -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image:     -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image:      -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+.copieRight
+{
+    font-size: .75rem;
+
+    padding: 20px 0;
+
+    color: #eaf6f6;
+}
+@media(max-width:1010px)
+{
+    .top-cloud
+    {
+        position: absolute;
+        top: 150px;
+        right: 40px;
+        width: 15%;
+    }
+    .bottom-cloud
+    {
+        bottom: 230px;
+        left: 75px;
+        width: 160px;
+        max-width: 15%;
+    }
+    .sonne
+    {
+        top: 15px;
+        left: 180px;
+    }
+    .adler
+    {
+      position: relative;
+        bottom: 80px;
+        left: 70px;
+        max-width: 10%;
+    }
+}
